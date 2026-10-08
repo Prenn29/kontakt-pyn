@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Zadzwoń</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #111, #333);
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 45px;
+            border-radius: 25px;
+            box-shadow: 0 15px 50px #0008;
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 35px;
+        }
+
+        .number {
+            display: block;
+            margin: 25px 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .call {
+            display: inline-block;
+            padding: 18px 35px;
+            border-radius: 15px;
+            background: #20c56b;
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .call:hover {
+            background: #159e53;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📞 Zadzwoń</h1>
+
+        <div class="number">
+            +48 780 001 525
+        </div>
+
+        <a class="call" href="tel:+48780001525">
+            ZADZWOŃ TERAZ
+        </a>
+
+    </div>
+
+</body>
+</html>
